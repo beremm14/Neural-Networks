@@ -1,3 +1,5 @@
-/NeuronalNetwork/nbproject/private/
-/NeuralNetwork/nbproject/private/
-/NeuralNetwork/build/
+/bin
+/lib
+/include
+.Python
+.vscode
