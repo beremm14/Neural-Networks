@@ -43,13 +43,13 @@ model = tf.keras.models.Sequential([
 ])
 
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
-model.fit(training_images, training_labels, epochs=10)
+model.fit(training_images, training_labels, epochs=5)
 
 
 # Load pictures for testing
 
 try:
-    path = abspath('pictures/shoe.jpg')
+    path = abspath('src/pictures/shoe.jpg')
     print(path)
     img = cv2.imread(path)
     if img == None:
