@@ -30,7 +30,7 @@ if np.any(x[0,0]>250):
     x *= -1
 
 x = x/255.0
-x = x.reshape(1, 784)
+x = x.reshape(1, 28, 28, 1)
 
 plt.imshow(img, cmap='Greys_r')
 #plt.show()
