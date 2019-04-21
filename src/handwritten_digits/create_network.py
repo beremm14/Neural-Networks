@@ -30,20 +30,8 @@ y_train = np_utils.to_categorical(y_train)
 y_test = np_utils.to_categorical(y_test)
 num_classes = y_test.shape[1]
 
-# define baseline model
-def baseline_model():
-    # create model
-    model = Sequential()
-    model.add(Conv2D(30, [3, 3], input_shape=(28, 28, 1), activation='relu'))
-    model.add(Dense(num_pixels, input_dim=num_pixels, kernel_initializer='normal', activation='relu'))
-    model.add(Dense(num_pixels, input_dim=num_pixels, kernel_initializer='normal', activation='relu'))
-    model.add(Dense(num_classes, kernel_initializer='normal', activation='softmax'))
-	# Compile model
-    model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
-    return model
-
-# define the larger model
-def larger_model():
+# define the model
+def model():
 	# create model
 	model = Sequential()
 	model.add(Conv2D(30, (5, 5), input_shape=(28, 28, 1), activation='relu'))
@@ -60,11 +48,11 @@ def larger_model():
 	return model
 
 # build the model
-model = larger_model()
+model = model()
 # Fit the model
 model.fit(X_train, y_train, epochs=10)
 # Final evaluation of the model
 scores = model.evaluate(X_test, y_test, verbose=0)
-print("Large CNN Error: %.2f%%" % (100-scores[1]*100))
+print("CNN Error: %.2f%%" % (100-scores[1]*100))
 
 model.save("models/num_reader.model")

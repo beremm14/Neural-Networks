@@ -11,7 +11,7 @@ from skimage import io
 model = tf.keras.models.load_model('models/num_reader.model')
 
 try:
-    path = abspath('src/pictures/9.png')
+    path = abspath('src/pictures/1.png')
     print(path)
     img = cv2.imread(path)
     if img == None:
@@ -33,11 +33,11 @@ x = x/255.0
 x = x.reshape(1, 28, 28, 1)
 
 plt.imshow(img, cmap='Greys_r')
-#plt.show()
+plt.show()
 
 numbers = model.predict(x)
 plt.bar(range(10), numbers[0])
-#plt.show()
+plt.show()
 print('\nPrediction: Number ', np.argmax(numbers[0]), '\n')
 print('Predictions:')
 print('0: ', numbers[0][0])
