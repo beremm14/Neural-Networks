@@ -11,7 +11,7 @@ from skimage import io
 model = tf.keras.models.load_model('models/num_reader.model')
 
 try:
-    path = abspath('src/pictures/1.png')
+    path = abspath('src/pictures/num_bad/1.png')
     print(path)
     img = cv2.imread(path)
     if img == None:
