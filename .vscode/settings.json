@@ -1,0 +1,16 @@
+{
+    "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.7/bin/python3",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/bin": true,
+        "**/include": true,
+        "**/lib": true,
+        "**/.Python": true,
+        "**/.gitignore": true
+      }
+}
+
