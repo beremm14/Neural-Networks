@@ -49,7 +49,7 @@ model.fit(training_images, training_labels, epochs=5)
 # Load pictures for testing
 
 try:
-    path = abspath('src/pictures/shoe.jpg')
+    path = abspath('src/pictures/fashion/shoe.jpg')
     print(path)
     img = cv2.imread(path)
     if img == None:
