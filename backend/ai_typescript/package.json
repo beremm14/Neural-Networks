@@ -1,7 +1,7 @@
 {
-  "name": "ue02_typescript",
+  "name": "typescript_networks",
   "version": "0.0.1",
-  "description": "Typescript Programm FIVU",
+  "description": "Using Tensorflow.js",
   "main": "main.js",
   "scripts": {
     "build": "echo \" Hat net hingehaut\"",
@@ -10,8 +10,16 @@
   "author": "Berger",
   "private": true,
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "natives": "^1.1.6",
+    "pug": "^2.0.3"
+  },
   "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.16.0",
+    "@types/pug": "^2.0.4",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-changed": "^3.2.0",
