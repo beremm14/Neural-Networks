@@ -1,4 +1,4 @@
-# NeuralTest
+# Neural-Networks
 My first neural network :)
 
 ## Installation Tensorflow:
