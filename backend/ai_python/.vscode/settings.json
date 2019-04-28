@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.7/bin/python3",
+    "python.pythonPath": "py27/bin/python",
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -11,6 +11,7 @@
         "**/lib": true,
         "**/.Python": true,
         "**/.gitignore": true
-      }
+      },
+      "git.ignoreLimitWarning": true
 }
 

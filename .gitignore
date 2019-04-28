@@ -50,3 +50,5 @@
 **/build
 **/captures
 **/.externalNativeBuild
+
+**/py27

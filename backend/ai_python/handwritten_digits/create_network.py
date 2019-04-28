@@ -57,6 +57,6 @@ model = model()
 model.fit(X_train, y_train, epochs=1)
 # Final evaluation of the model
 scores = model.evaluate(X_test, y_test, verbose=0)
-print("CNN Error: %.2f%%" % (100-scores[1]*100))
+print('CNN Error: %.2f%%' % (100-scores[1]*100))
 
-model.save(getHome() + "/models/num_reader.model")
+model.save(getHome() + '/models/num_reader.h5')
