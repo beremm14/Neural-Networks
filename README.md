@@ -2,6 +2,7 @@
 My first neural network :)
 
 ## Installation Tensorflow:
+### Python
 ```shell
 # download and install setuptools
 curl -O https://bootstrap.pypa.io/ez_setup.py
@@ -17,3 +18,6 @@ For installing the packages globally:
 ```shell
 sudo -H pip install <packagename>
 ```
+
+### Swift
+Look at this [Document](https://github.com/tensorflow/swift/blob/master/Installation.md)
