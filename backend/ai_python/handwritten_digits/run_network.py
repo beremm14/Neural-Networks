@@ -13,7 +13,7 @@ def getHome():
     return os.path.dirname(backend)
 
 
-path = abspath(getHome() + '/models/num_reader.model')
+path = abspath(getHome() + '/models/num_reader.h5')
 print(path)
 model = tf.keras.models.load_model(path)
 
