@@ -11,6 +11,8 @@
   "private": true,
   "license": "MIT",
   "dependencies": {
+    "@tensorflow/tfjs": "^1.1.0",
+    "@tensorflow/tfjs-node": "^1.1.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "natives": "^1.1.6",
