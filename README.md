@@ -20,4 +20,6 @@ sudo -H pip install <packagename>
 ```
 
 ### Swift
-Look at this [Document](https://github.com/tensorflow/swift/blob/master/Installation.md)
+  Look at this [Document](https://github.com/tensorflow/swift/blob/master/Installation.md)  
+  --> Add: File -> Project Settings -> Legacy Build System  
+  
