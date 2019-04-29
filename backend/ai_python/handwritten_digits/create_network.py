@@ -54,7 +54,7 @@ def model():
 # build the model
 model = model()
 # Fit the model
-model.fit(X_train, y_train, epochs=1)
+model.fit(X_train, y_train, epochs=10)
 # Final evaluation of the model
 scores = model.evaluate(X_test, y_test, verbose=0)
 print('CNN Error: %.2f%%' % (100-scores[1]*100))

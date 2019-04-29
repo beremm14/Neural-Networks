@@ -9,10 +9,17 @@
 import UIKit
 import CoreML
 
+extension Double {
+    func format(f: String) -> String {
+        return String(format: "%\(f)f", self)
+    }
+}
+
 class ViewController: UIViewController {
     
     @IBOutlet weak var drawView: DrawView!
     @IBOutlet weak var predictLabel: UILabel!
+    @IBOutlet weak var percentLabel: UILabel!
     
     let model = num_reader()
     var inputImage: CGImage!
@@ -21,12 +28,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         predictLabel.isHidden = true
+        percentLabel.isHidden = true
     }
     
     @IBAction func tappedClear(_ sender: Any) {
         drawView.lines = []
         drawView.setNeedsDisplay()
         predictLabel.isHidden = true
+        percentLabel.isHidden = true
     }
     
     @IBAction func tappedDetect(_ sender: Any) {
@@ -34,8 +43,12 @@ class ViewController: UIViewController {
         inputImage = context?.makeImage()
         let pixelBuffer = UIImage(cgImage: inputImage).pixelBuffer()
         let output = try? model.prediction(image: pixelBuffer!)
-        predictLabel.text = output?.classLabel
+        let percent = Double(output!.output[output!.classLabel]!)
+        let predPerc = Double(percent*100.0).format(f: ".2") + "%"
+        predictLabel.text = output!.classLabel
+        percentLabel.text = String(predPerc)
         predictLabel.isHidden = false
+        percentLabel.isHidden = false
     }
     
     

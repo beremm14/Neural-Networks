@@ -1,4 +1,4 @@
-import coremltools
+import coremltools as ml
 import os
 
 def getHome():
@@ -7,7 +7,7 @@ def getHome():
 
 output_labels = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 scale = 1/255.
-coreml_model = coremltools.converters.keras.convert(getHome() + '/models/num_reader.h5',
+coreml_model = ml.converters.keras.convert(getHome() + '/models/num_reader.h5',
                                                    input_names='image',
                                                    image_input_names='image',
                                                    output_names='output',
