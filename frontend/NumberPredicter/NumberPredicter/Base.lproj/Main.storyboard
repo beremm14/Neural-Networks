@@ -93,7 +93,7 @@
                     </view>
                     <connections>
                         <outlet property="drawView" destination="tVd-T2-zec" id="9wo-OO-7Bv"/>
-                        <outlet property="percentLabel" destination="tSw-dr-xCe" id="LKU-IR-4Wl"/>
+                        <outlet property="percentLabel" destination="tSw-dr-xCe" id="tOY-3h-687"/>
                         <outlet property="predictLabel" destination="4DZ-9b-DQY" id="f71-66-giR"/>
                     </connections>
                 </viewController>
