@@ -13,6 +13,7 @@
 		200EAE54227606FA00858E9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 200EAE53227606FA00858E9D /* Assets.xcassets */; };
 		200EAE57227606FA00858E9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200EAE55227606FA00858E9D /* LaunchScreen.storyboard */; };
 		200EAE5F2276081200858E9D /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200EAE5E2276081200858E9D /* DrawView.swift */; };
+		207F438F2276FEB600EF54D6 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 207F438E2276FEB600EF54D6 /* icons */; };
 		20E70887227609EB00D6C96B /* num_reader.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 20E70886227609EA00D6C96B /* num_reader.mlmodel */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		200EAE56227606FA00858E9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		200EAE58227606FA00858E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		200EAE5E2276081200858E9D /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		207F438E2276FEB600EF54D6 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
 		20E70886227609EA00D6C96B /* num_reader.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = num_reader.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +60,7 @@
 		200EAE4B227606F800858E9D /* NumberPredicter */ = {
 			isa = PBXGroup;
 			children = (
+				207F438E2276FEB600EF54D6 /* icons */,
 				20E70886227609EA00D6C96B /* num_reader.mlmodel */,
 				200EAE4C227606F800858E9D /* AppDelegate.swift */,
 				200EAE4E227606F800858E9D /* ViewController.swift */,
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				200EAE57227606FA00858E9D /* LaunchScreen.storyboard in Resources */,
+				207F438F2276FEB600EF54D6 /* icons in Resources */,
 				200EAE54227606FA00858E9D /* Assets.xcassets in Resources */,
 				200EAE52227606F800858E9D /* Main.storyboard in Resources */,
 			);
