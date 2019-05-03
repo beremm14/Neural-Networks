@@ -52,3 +52,4 @@
 **/.externalNativeBuild
 
 **/py27
+/theoretical/NeuralNetwork/nbproject/private/
