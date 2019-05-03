@@ -4,8 +4,11 @@ My first neural network :)
 ## Instruction:
   **Folders:**  
   * backend: *creating and testing models*  
+    * CoreML, Tensorflow (Keras), TensorflowJS  
   * frontend: *using the models in GUI Apps*  
+    * iOS (Swift), Angular 4  
   * theoretical: *creating own networks without a library/framework*  
+    * Java, C#  
 
 ## Installation Tensorflow:
 ### Python
