@@ -1,6 +1,12 @@
 # Neural-Networks
 My first neural network :)
 
+## Instruction:
+  **Folders:**  
+  * backend: *creating and testing models*  
+  * frontend: *using the models in GUI Apps*  
+  * theoretical: *creating own networks without a library/framework*  
+
 ## Installation Tensorflow:
 ### Python
 ```shell
