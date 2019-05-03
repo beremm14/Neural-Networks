@@ -1,0 +1,11 @@
+/Users/emil/Documents/Programme/Projects/Neural-Networks/backend/ai_c#/bin/Debug/netcoreapp2.2/ai_c#.deps.json
+/Users/emil/Documents/Programme/Projects/Neural-Networks/backend/ai_c#/bin/Debug/netcoreapp2.2/ai_c#.runtimeconfig.json
+/Users/emil/Documents/Programme/Projects/Neural-Networks/backend/ai_c#/bin/Debug/netcoreapp2.2/ai_c#.runtimeconfig.dev.json
+/Users/emil/Documents/Programme/Projects/Neural-Networks/backend/ai_c#/bin/Debug/netcoreapp2.2/ai_c#.dll
+/Users/emil/Documents/Programme/Projects/Neural-Networks/backend/ai_c#/bin/Debug/netcoreapp2.2/ai_c#.pdb
+/Users/emil/Documents/Programme/Projects/Neural-Networks/backend/ai_c#/obj/Debug/netcoreapp2.2/ai_c#.csprojAssemblyReference.cache
+/Users/emil/Documents/Programme/Projects/Neural-Networks/backend/ai_c#/obj/Debug/netcoreapp2.2/ai_c#.csproj.CoreCompileInputs.cache
+/Users/emil/Documents/Programme/Projects/Neural-Networks/backend/ai_c#/obj/Debug/netcoreapp2.2/ai_c#.AssemblyInfoInputs.cache
+/Users/emil/Documents/Programme/Projects/Neural-Networks/backend/ai_c#/obj/Debug/netcoreapp2.2/ai_c#.AssemblyInfo.cs
+/Users/emil/Documents/Programme/Projects/Neural-Networks/backend/ai_c#/obj/Debug/netcoreapp2.2/ai_c#.dll
+/Users/emil/Documents/Programme/Projects/Neural-Networks/backend/ai_c#/obj/Debug/netcoreapp2.2/ai_c#.pdb
